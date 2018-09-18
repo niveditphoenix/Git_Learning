@@ -1,0 +1,21 @@
+https://education.github.com/git-cheat-sheet-education.pdf
+
+…or create a new repository on the command line
+
+echo "# Colab_Learning" >> README.md
+
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:niveditphoenix/Colab_Learning.git
+git push -u origin master
+
+.................................................
+
+…or push an existing repository from the command line
+
+git remote add origin git@github.com:niveditphoenix/Colab_Learning.git
+git push -u origin master
+
+
+.................................................
